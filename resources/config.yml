@@ -1,0 +1,7 @@
+DB_HOST: 'localhost'
+DB_USER: 'root'
+DB_USER_PASSWORD: 'abz00ba'
+DB_NAME: 'arunangsukrishna'
+DB_PORT: 1433
+DB_CHARSET: 'utf8'
+#BACKUP_PATH: '/var/lib/mysql/module_data'

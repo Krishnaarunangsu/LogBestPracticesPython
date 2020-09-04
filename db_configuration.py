@@ -1,0 +1,1 @@
+prepared_statement: str = "SELECT EMPNO, LASTNAME FROM EMPLOYEE WHERE EMPNO > ? AND EMPNO < ?"

@@ -1,0 +1,21 @@
+version: 1
+disable_existing_loggers: False
+
+formatters:
+  simple:
+    # format: '%(asctime)s  %(name)-30s %(levelname)-7s %(message)s'
+    format: '[%(asctime)s] - [%(levelname)s] - [%(filename)s]- [%(funcName)s] - [%(lineno)d] - [%(threadName)s] - [%(thread)d ]  - [%(message)s]'
+
+handlers:
+    file:
+        class: logging.handlers.RotatingFileHandler
+        formatter: simple
+        #filename: /var/log/myapp/myapp.log
+        # filename: logs/myapp.log
+        filename: D:/Arunangsu/Logs/myapp.log
+
+root:
+    # level: DEBUG
+    level: WARNING
+    handlers:
+        - file
